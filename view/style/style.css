@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#header {
+  background: white;
+  height: 100px;
+}
+#header #p_list {
+  position: absolute;
+  top: 30px;
+  left: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+}
+
+.middle-div {
+  background: #EEEEEE;
+  Font-family: "Calibri", "Candara", "Segoe", "Segoe UI", "Optima", "Arial", "sans-serif";
+}
+
+#footer {
+  background: rgba(239, 240, 225, 0.821);
+  display: flex;
+  height: 100px;
+  align-items: center;
+}
+
+#assignment {
+  position: absolute;
+  left: 50%;
+  font-size: small;
+  transform: translate(-50%);
+}
+
+.prods_outter {
+  margin-left: 30px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  display: inline-block;
+  height: 220px;
+  width: 270px;
+  padding-top: 20px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  position: relative;
+  top: 0;
+  transition: top ease 0.2s;
+}
+.prods_outter .prods {
+  text-align: center;
+  padding: 10px;
+  padding-right: 10px;
+}
+
+.prods_outter:hover {
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 20px 30px, rgba(0, 0, 0, 0.23) 0px 12px 12px;
+  top: -10px;
+}
+
+input {
+  align-items: left;
+}
+
+.btn-group {
+  position: absolute;
+  top: 60px;
+  right: 50px;
+  display: inline;
+  text-align: right;
+}
+.btn-group button {
+  background-color: rgb(209, 206, 206);
+  border: 1px grey;
+  padding: 10px 20px;
+  cursor: pointer; /* Pointer/hand icon */
+  text-decoration: none;
+  display: inline-block;
+  text-align: right;
+  box-shadow: rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  font-weight: bold;
+}
+
+#add-button {
+  background-color: rgb(207, 199, 198);
+  border-radius: 5%;
+  color: white;
+}
+
+#delete-product-btn {
+  background-color: rgb(206, 3, 3);
+  border-radius: 5%;
+  color: white;
+}
+
+#cancel-btn {
+  background-color: rgb(207, 199, 198);
+  border-radius: 5%;
+  color: white;
+}
+
+#save-btn {
+  background-color: rgb(5, 15, 156);
+  border-radius: 5%;
+  color: white;
+}
+
+.line {
+  background-color: black;
+  padding: 1px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+#border {
+  padding-left: 50px;
+  padding-top: 30px;
+}
+
+.form-element {
+  position: absolute;
+  left: 300px;
+}
+
+#productType {
+  width: 150px;
+  height: 25px;
+}
+
+#insideform {
+  height: 200px;
+  width: 370px;
+}
+
+.details {
+  display: none;
+  padding-top: 30px;
+}
+
+.form-element {
+  border: 2px solid #eee;
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+}
+
+.additional {
+  font-weight: bold;
+}/*# sourceMappingURL=style.css.map */

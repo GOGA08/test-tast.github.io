@@ -1,0 +1,10 @@
+{
+    "name": "scandiweb/project",
+    "description": "product page",
+    "autoload": {
+        "psr-4": {
+            "controller\\": "controller"
+        }
+    }
+
+}

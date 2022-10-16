@@ -1,0 +1,10 @@
+$addbtncol:rgb(207, 199, 198);
+$delbtncol:rgb(206, 3, 3);
+$canbtncol:rgb(207, 199, 198);
+$savbtncol:rgb(5, 15, 156);
+
+@mixin important_text {
+    border-radius: 5%;
+    color:white;
+}
+
